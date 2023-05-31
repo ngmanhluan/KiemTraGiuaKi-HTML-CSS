@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    
+</head>
+<body>
+	<form>
+		<label for="full-name">
+			<span>Full Name:</span>
+			<input type="text" id="full-name" name="full-name" placeholder="Your Full Name..." required>
+		</label>
+
+		<label for="email">
+			<span>Email:</span>
+			<input type="text" id="email" name="email" placeholder="Your Email" required>
+		</label>
+
+		<label for="phone">
+			<span>Phone:</span>
+			<input type="text" id="phone" name="phone" placeholder="Your Phone" required>
+		</label>
+
+		<div class="gender">
+			<label>
+				Gender:
+			</label>
+			<label>
+				<input type="radio" name="gender" value="male" required> Male
+			</label>
+			<label>
+				<input type="radio" name="gender" value="female" required> Female
+			</label>
+			<label>
+				<input type="radio" name="gender" value="other" required> Other
+			</label>
+		</div>
+
+		<label for="country">
+			Country:
+			<select id="country" name="country">
+				<option value="Vietnam">Vietnam</option>
+				<option value="USA">USA</option>
+				<option value="Japan">Japan</option>
+				<option value="Korea">Korea</option>
+			</select>
+		</label>
+
+		<div class="comment">
+			<label>
+				Write something:
+			</label>
+			<textarea id="comment" name="comment" placeholder="Write something here..."></textarea>
+		<div class="buttons">
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</div>
+	</form>
+</body>
+</html>

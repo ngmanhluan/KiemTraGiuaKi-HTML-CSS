@@ -1,0 +1,89 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 500px;
+    background-color: #f2f2f2;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+label span {
+    margin-left: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+input[type=text], select, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+textarea {
+    height: 100px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.gender label {
+    margin-right: 59px;
+}
+
+.comment label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.comment textarea {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buttons button[type=reset] {
+    background-color: #f44336;
+    color: white;
+}
